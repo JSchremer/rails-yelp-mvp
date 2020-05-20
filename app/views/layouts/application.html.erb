@@ -13,6 +13,10 @@
   </head>
 
   <body>
+  <ul class="list-inline">
+    <li class="list-inline-item"> <%= link_to "Overview", restaurants_path %> </li>
+    <li class="list-inline-item"> <%= link_to "Add a new restaurant", new_restaurant_path %> </li>
+  </ul>
     <%= yield %>
   </body>
 </html>
